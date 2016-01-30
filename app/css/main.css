@@ -146,32 +146,63 @@ body {
 /* Контакты */
 .contacts {
 	overflow: hidden;
-	font-family: 'fira_sansbook';
 	border-radius: 4px;
-	color: #fff;
 }
-
-.contacts .contacts-head {
-	background: #3ba8c0;
-	overflow: hidden;
-	font-size: 21px;
-	padding-left: 20px;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	
+.contacts_title {
+    padding: 10px 25px;
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: 'fira_sansbook';
+    color: #FFF;
+    background-color: #3ba8c0;
 }
-
-.contacts .contacts-list {
+.contacts-list {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding-left: 0;
 }
-.contacts .contacts-email {
-	background: url(../img/case.png) no-repeat;
-	background-position: left;
-	
+.contacts-item {
+	padding-left: 40px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
+.contacts-item.email {
+	background: #41b9d4;
+}
+.contacts-item.tel {
+	background: #48cbe8;
+}
+.contacts-item.skype {
+	background: #51daf8;
+}
+.contacts-link {
+	font-family: 'fira_sansbook';
 
+}
+.contacts-link.email {
+	padding-left: 40px;
+	background: url(../img/mail.png) no-repeat;
+    background-position: left;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+.contacts-link.tel {
+	padding-left: 40px;
+	background: url(../img/tel.png) no-repeat;
+    background-position: left;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 17px;
+}
+.contacts-link.skype {
+	padding-left: 40px;
+	background: url(../img/skype.png) no-repeat;
+    background-position: left;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 17px;
+}
 /* Контакты - конец */
 
 .variable-content {
